@@ -8,7 +8,7 @@ My implementation code of IPO algorithm
 - IPO stands for Interior Point Method, which is a mathematical optimization methodology used to solve Constrained Policy Optimization.
 -   When a constraint is violated, a strong penalty is applied to the loss through the log-barrier function. If not, the policy gradient is calculated and updated in a direction that lowers the constraint value.
 
-$$L^{IPO}(\theta)=L^{CLIP}(\theta)+\frac{\log()}{t}$$
+$$L^{IPO}(\theta)=L^{CLIP}(\theta)+\frac{\log( \alpha- )}{t}$$
 
 -  This code applies the IPO to a Constrained Portfolio Optimization problem.
 
