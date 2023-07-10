@@ -1,4 +1,4 @@
-# Implementation: CDDT
+# Implementation: IPO
 
 My implementation code of IPO algorithm
 [***IPO: Interior-point Policy Optimization under Constraints***](https://arxiv.org/pdf/1910.09615.pdf)
